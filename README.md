@@ -20,7 +20,7 @@
     - Definindo a voz com Web Speech
 
     [✔️] Web speech API
-    [] Exibindo a mensagem no console
+    [✔️] Exibindo a mensagem no console
     [] Mostrando a mensagem na tela 
 
 ## Módulo 4
