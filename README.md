@@ -21,7 +21,7 @@
 
     [✔️] Web speech API
     [✔️] Exibindo a mensagem no console
-    [] Mostrando a mensagem na tela 
+    [✔️] Mostrando a mensagem na tela 
 
 ## Módulo 4
 
