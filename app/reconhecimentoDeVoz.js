@@ -11,6 +11,8 @@ recognition.addEventListener('result', onSpeak)
 function onSpeak(e) {
     chute = e.results[0][0].transcript
     exibeChuteNaTela(chute)
+    // Desafio Para achar outro Conteúdo
+    // console.log(e.target.lang)
 }
 
 function exibeChuteNaTela(chute) {
