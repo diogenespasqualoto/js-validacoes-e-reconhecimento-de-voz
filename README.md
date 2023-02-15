@@ -13,7 +13,7 @@
     - Aplicando a função Math.random
 
     [✔️] Número aleatorio com Math.random
-    [] Manipulando menor e maior valor
+    [✔️] Manipulando menor e maior valor
 
 ## Módulo 3
 
