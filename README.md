@@ -6,7 +6,7 @@
 
     [✔️] Iniciando projeto
     [✔️] Escolhendo fontes e cores
-    [] Aplicando cores e posicionando 
+    [✔️] Aplicando cores e posicionando 
 
 ## Módulo 2
 

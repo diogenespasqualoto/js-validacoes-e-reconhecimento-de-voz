@@ -1,8 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@1,400;1,700&display=swap');
 
 :root {
-    font-family: 'Anonymous Pro', monospace;
+    --font-family: 'Anonymous Pro', monospace;
     --bg-color: #301E67;
     --primary-color: #03001C;
     --primary-color-light: #FFFFE8;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--primary-color-light);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+.box{
+    border: 2px solid var(--primary-color-light) ;
+    display: inline-block;
+    font-size: 4em;
+    padding:10px ;
+    margin: 20px;
 }
