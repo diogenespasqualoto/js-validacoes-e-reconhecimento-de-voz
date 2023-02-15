@@ -1,1 +1,8 @@
-/* @import '/path/to/reset-css/reset.css'; */
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@1,400;1,700&display=swap');
+
+:root {
+    font-family: 'Anonymous Pro', monospace;
+    --bg-color: #301E67;
+    --primary-color: #03001C;
+    --primary-color-light: #FFFFE8;
+}

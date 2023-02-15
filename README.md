@@ -5,7 +5,7 @@
     - Aplicando estilos no javaScript
 
     [✔️] Iniciando projeto
-    [] Escolhendo fontes e cores
+    [✔️] Escolhendo fontes e cores
     [] Aplicando cores e posicionando 
 
 ## Módulo 2
