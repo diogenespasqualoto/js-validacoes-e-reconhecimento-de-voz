@@ -10,15 +10,17 @@ recognition.addEventListener('result', onSpeak)
 
 function onSpeak(e) {
     chute = e.results[0][0].transcript
-    exibeChuteNaTela(chute)
     // Desafio Para achar outro Conteúdo
     // console.log(e.target.lang)
+    exibeChuteNaTela(chute)
     verificaSeOChutePossuiUmValorValido(chute)
 }
 
 function exibeChuteNaTela(chute) {
     elementoChute.innerHTML = `
-        <div>Tu disse</div>
+        <div>Você disse</div>
         <span class="box">${chute}</span>
-    `
+     `
 }
+
+recognition.addEventListener('end', () => recognition.start())

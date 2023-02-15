@@ -29,7 +29,7 @@
 
     [✔️] Validações 
     [✔️] Acertando o número secreto
-    [] Criando as dicas
+    [✔️] Criando as dicas
 
 ## Módulo 5
 
