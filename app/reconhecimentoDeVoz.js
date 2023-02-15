@@ -13,6 +13,7 @@ function onSpeak(e) {
     exibeChuteNaTela(chute)
     // Desafio Para achar outro Conteúdo
     // console.log(e.target.lang)
+    verificaSeOChutePossuiUmValorValido(chute)
 }
 
 function exibeChuteNaTela(chute) {
