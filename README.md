@@ -28,7 +28,7 @@
     - Criando a lógica do jogo
 
     [✔️] Validações 
-    [] Acertando o número secreto
+    [✔️] Acertando o número secreto
     [] Criando as dicas
 
 ## Módulo 5
