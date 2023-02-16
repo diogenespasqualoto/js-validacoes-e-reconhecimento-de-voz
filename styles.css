@@ -3,12 +3,17 @@
 :root {
     --font-family: 'Anonymous Pro', monospace;
     --bg-color: #301E67;
+    --bg-img: url(./img/houseSpooki.jpg);
     --primary-color: #03001C;
     --primary-color-light: #FFFFE8;
 }
 
 body {
-    background-color: var(--bg-color);
+    background-image: var(--bg-img);
+    background-position: center;
+    background-size: cover;
+
+
     color: var(--primary-color-light);
     min-height: 100vh;
     display: flex;
