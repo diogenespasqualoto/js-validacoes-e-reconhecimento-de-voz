@@ -36,4 +36,4 @@
     -Publicando e compartilhando
 
     [✔️] Criando o botão jogar novamente
-    [] Publicando o jogo
+    [✔️] Publicando o jogo
