@@ -21,19 +21,19 @@
 
     [✔️] Web speech API
     [✔️] Exibindo a mensagem no console
-    [✔️] Mostrando a mensagem na tela 
+    [✔️] Mostrando a mensagem na tela
 
 ## Módulo 4
 
     - Criando a lógica do jogo
 
-    [✔️] Validações 
+    [✔️] Validações
     [✔️] Acertando o número secreto
     [✔️] Criando as dicas
 
 ## Módulo 5
 
-    -
+    -Publicando e compartilhando
 
-    []
-    []
+    [] Criando o botão jogar novamente
+    [] Publicando o jogo
