@@ -4,6 +4,7 @@
     --font-family: 'Anonymous Pro', monospace;
     --bg-color: #301E67;
     --bg-img: url(./img/houseSpooki.jpg);
+    --bg-img1: url(./img/devik.png);
     --primary-color: #03001C;
     --primary-color-light: #FFFFE8;
 }
@@ -25,7 +26,14 @@ body {
     font-family: var(--font-family);
 }
 
-.box-blur{
+body.changeWallpaper {
+    background-image: var(--bg-img1);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.box-blur {
     width: 97%;
     height: 300px;
     display: flex;
@@ -69,4 +77,44 @@ h3 {
     color: var(--primary-color-light);
     border-radius: 5px;
     margin-top: 20px;
+}
+
+#changeWallpaper-btn {
+    padding: 8px 15px;
+    border: 0;
+    background: var(--primary-color);
+    color: var(--primary-color-light);
+    border-radius: 5px;
+    margin: 60px auto;
+}
+
+@media screen and (min-width:260px) {
+    body {
+        font-size: 12px;
+        background-size: contain;
+        background-repeat: repeat-y;
+    }
+
+    .box-blur {
+        width: 97%;
+    }
+
+
+    h1 {
+        font-size: em;
+    }
+
+    h2 {
+        font-size: 3em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+        margin-top: 10px;
+    }
+
+    .mensagem {
+        font-size: 1.5em;
+        margin-top: 30px;
+    }
 }
